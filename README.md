@@ -39,6 +39,3 @@ aws cloudformation create-stack \
 aws cloudformation delete-stack \
   --stack-name myS3 
 ```
-OR
-```
-aws cloudforma
