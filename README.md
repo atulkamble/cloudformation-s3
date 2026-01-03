@@ -13,3 +13,32 @@
 **Version 1.0.0** | Last Updated: December 2025
 
 </div>
+
+# clone repo 
+```
+git clone https://github.com/atulkamble/cloudformation-s3.git
+cd cloudformation-s3
+```
+# apply template 
+```
+aws cloudformation validate-template \
+  --template-body file://template.yaml
+```
+OR
+```
+aws cloudformation validate-template --template-body file://template.yaml
+```
+# Create Stack
+```
+aws cloudformation create-stack \
+  --stack-name myS3 \
+  --template-body file://template.yaml 
+```
+# Delete Stack
+```
+aws cloudformation delete-stack \
+  --stack-name myS3 
+```
+OR
+```
+aws cloudforma
