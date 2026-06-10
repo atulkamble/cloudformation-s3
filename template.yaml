@@ -5,4 +5,4 @@ Resources:
   MyS3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: mybasic-bucket-cloudformation-1234567
+      BucketName: mybucket87976857658
